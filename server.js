@@ -1,4 +1,5 @@
 var http = require('http'),
+    $ = require("jquery"),
     config = require('./config'),
     fileHandler = require('./filehandler'),
     parse = require('url').parse,
