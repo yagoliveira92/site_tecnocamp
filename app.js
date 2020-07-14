@@ -1,6 +1,7 @@
 const express = require('express');
 const proxy = require('http-proxy-middleware');
 var ParseServer = require('parse-server').ParseServer;
+$ = require("jquery");
 
 var api = new ParseServer({
     databaseURI: 'mongodb://localhost:27017/dev', // Connection string for your MongoDB database
