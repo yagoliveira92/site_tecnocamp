@@ -4,7 +4,7 @@ var ParseServer = require('parse-server').ParseServer;
 $ = require("jquery");
 
 var api = new ParseServer({
-    databaseURI: 'mongodb://localhost:27017/dev', // Connection string for your MongoDB database
+    databaseURI: 'mongodb+srv://yagoliveira:0Qm*0!c@TiWs@cluster0.dm1lp.gcp.mongodb.net/parse_database?retryWrites=true&w=majority', // Connection string for your MongoDB database
     appId: 'testeApi',
     masterKey: 'deee2f86-ad8b-4750-b00e-142b07e0b131', // Keep this key secret!
     serverURL: 'http://localhost:3000/parse' // Don't forget to change to https if needed
