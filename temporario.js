@@ -1,1 +1,0 @@
-require("http").createServer((req, res) => res.end("/static/index.html")).listen(process.env.PORT || 3000, () => console.log("Aplicação temporária rodando."));

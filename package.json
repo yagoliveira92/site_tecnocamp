@@ -1,24 +1,16 @@
 {
-  "name": "site_tecnocamp",
+  "name": "serverumbler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yagoliveira92/site_tecnocamp.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yagoliveira92/site_tecnocamp/issues"
-  },
-  "homepage": "https://github.com/yagoliveira92/site_tecnocamp#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.5.1"
+    "http-proxy-middleware": "^1.0.5",
+    "parse-server": "^4.2.0"
   }
 }
