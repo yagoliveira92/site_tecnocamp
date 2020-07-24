@@ -13,7 +13,7 @@ var api = new ParseServer({
     serverURL: 'http://localhost:3000/api' // Don't forget to change to https if needed
 });
 
-var options = { allowInsecureHTTP: false };
+var options = { allowInsecureHTTP: true };
 
 var dashboard = new ParseDashboard({
     "apps": [
