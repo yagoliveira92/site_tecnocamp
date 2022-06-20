@@ -15,6 +15,6 @@
     "http-proxy-middleware": "^1.0.5",
     "jquery": "^3.5.1",
     "parse-dashboard": "^2.1.0",
-    "parse-server": "^4.3.0"
+    "parse-server": "^4.10.12"
   }
 }
